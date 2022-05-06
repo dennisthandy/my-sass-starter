@@ -1,0 +1,33 @@
+{
+  "name": "learn-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "watch": "sass --watch --update --style=expanded src/scss:src/css",
+    "build": "postcss src/css/main.css > dist/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "postcss",
+    "dennis",
+    "thandy"
+  ],
+  "author": "Dennis Thandy",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "cssnano": "^5.1.7",
+    "postcss": "^8.4.13",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.51.0"
+  },
+  "browserslist": [
+    "last 20 versions",
+    "not IE 11",
+    "maintained node versions"
+  ]
+}
